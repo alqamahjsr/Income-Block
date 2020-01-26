@@ -1,0 +1,171 @@
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing : border-box;
+  }
+  
+  body {
+    background-color: #263238;
+    color: #78909c;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight:600;
+    text-align: center;
+    margin: 20 auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin: .5em;
+  }
+  
+  small {
+    font-size: 0.8em;
+  }
+  
+  .bold {
+    font-weight:600;
+  }
+  
+  
+  a {
+    color: #1985A1;
+    text-decoration: none;
+  }
+  
+  img {
+    float: left;
+    margin-right: 20px;
+    color: white;
+    fill: white;
+  }
+  
+  .i {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .center {
+    display: block;
+    margin: 2em auto;
+    width: 50%;
+    float: none;
+  }
+  
+  .tcenter {
+    text-align: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .bluebox {
+    background: #1985A1;
+    background: -moz-linear-gradient(45deg, #1985A1 61%, #C5C3C6 100%);
+    background: -webkit-linear-gradient(45deg, #1985A1 61%,#C5C3C6 100%);
+    background: linear-gradient(45deg, #1985A1 61%,#C5C3C6 100%);
+  
+    color: white;
+    padding: 2em;
+    -webkit-box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.64);
+    box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.64);
+    margin-bottom: 2em;
+  }
+  
+  .cyan {
+    color: #08cde8;
+    stroke: #08cde8;
+  }
+  
+  
+  
+  input, .selectbox {
+    background: #EFEFEF;
+    width: 100%;
+    height: 50px;
+    padding: .5em;
+    font-size: 1em;
+    border: 0px;
+  
+  }
+  
+  .onebutton {
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    padding: .5em;
+    font-size: 1em;
+    border: 0px;
+    background-color: #DCDCDD;
+    color: #46494C;
+  }
+  
+  button:hover {
+    transition: 0.2s;
+    background-color: #46494C;
+    color: #DCDCDD;
+  }
+  
+  button:active {
+    background-color: #46494C;
+    color: white;
+  }
+  
+  .reserve_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+  
+  .donate_btn {
+    background-color: #4C5C68;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  @media (min-width: 679px) {
+  
+  
+    .floatright {
+      width: 100%;
+      float: right;
+    }
+  
+    .floatleft {
+      width: 100%;
+      float: left;
+      margin-bottom: 2em;
+    }
+  
+    h1 {
+      font-size: 3em;
+    }
+    .floatleft, .floatright {
+      width: 50%;
+      max-width: 400px;
+    }
+    .container {
+        width: 80%;
+    }
+    .floatleft {
+      padding: 2em;
+    }
+  
+  }
+  
